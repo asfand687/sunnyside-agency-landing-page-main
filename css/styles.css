@@ -76,9 +76,21 @@ body {
   letter-spacing: 0.5rem;
 }
 
+@media (max-width: 400px) {
+  .header .header-content h2 {
+    font-size: 2rem !important;
+  }
+}
+
 .header .header-content img {
   position: absolute;
   top: 310px;
+}
+
+@media (max-width: 400px) {
+  .header .header-content img {
+    top: 250px;
+  }
 }
 
 .header .navbar {
@@ -144,6 +156,13 @@ body {
     right: 0;
     border: 50px solid transparent;
     border-right-color: white;
+  }
+}
+
+@media (max-width: 400px) {
+  .header .navbar .nav-links {
+    right: 40px;
+    width: 80%;
   }
 }
 
@@ -295,6 +314,12 @@ body {
   font-weight: bold;
   line-height: 1.3;
   color: #23303e;
+}
+
+@media (max-width: 700px) {
+  .features-section .flex-container .text-section h2 {
+    font-size: 2rem;
+  }
 }
 
 .features-section .flex-container .text-section p {
